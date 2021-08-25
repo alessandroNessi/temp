@@ -6,6 +6,12 @@ for( var i=0; i< invitati.length && userName!=true;i++){
         userName=true;
     }
 }
+// invitati.forEach(function(element) {
+//     if(userName==element){
+//         alert("Benvenuto alla festa");
+//         userName=true;
+//     }
+//   })
 if(userName!=true){
     alert("Mi dispiace ma non sei invitato");
 }
